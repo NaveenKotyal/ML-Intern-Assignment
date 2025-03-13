@@ -8,6 +8,15 @@ This repository contains a Jupyter Notebook for training and evaluating a Machin
 
 ### 1. Clone the Repository
 ```bash
-git clone <repository-url>
+git clone https://github.com/NaveenKotyal/ML-Intern-Assignment.git
 cd  ML-Intern-Assignment
+
+### 2. Create a Virtual Environment (Optional but Recommended)
+python -m venv venv
+source venv/bin/activate  # On macOS/Linux
+venv\Scripts\activate 
+
+### 3. Install Dependencies
+pip install -r requirements.txt
+
 
