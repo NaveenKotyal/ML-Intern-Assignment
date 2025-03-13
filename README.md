@@ -1,10 +1,30 @@
-# ML-Intern-Assignment
-# Machine Learning Project
+Hyperspectral Imaging for Mycotoxin Prediction
 
-## Overview
-This repository contains a Jupyter Notebook for training and evaluating a Machine Learning model. The notebook demonstrates data preprocessing, model training, and evaluation.
+Project Description
 
-## Installation
+This project focuses on analyzing hyperspectral imaging data to predict DON (vomitoxin) concentration in corn samples. The dataset contains spectral reflectance values across multiple wavelength bands for different samples, with the goal of building a regression model to estimate mycotoxin levels. The key steps include:
+
+Data Preprocessing: Handling missing values, normalizing spectral data, and visualizing spectral bands.
+
+Exploratory Data Analysis (EDA): Examining target variable distribution, correlations, and spectral trends.
+
+Dimensionality Reduction: Applying PCA to reduce feature dimensions while retaining variance.
+
+Machine Learning Modeling: Training and evaluating Random Forest and XGBoost models for regression.
+
+Model Evaluation: Using MAE, RMSE, and R² score to assess model performance and visualizing predictions.
+
+Technologies Used
+
+Python
+
+Pandas, NumPy
+
+Scikit-learn
+
+XGBoost
+
+Matplotlib, Seaborn
 
 ### 1. Clone the Repository
 ```bash
