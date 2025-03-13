@@ -1,6 +1,6 @@
-Hyperspectral Imaging for Mycotoxin Prediction
+# Hyperspectral Imaging for Mycotoxin Prediction
 
-Project Description
+## Project Description
 
 This project focuses on analyzing hyperspectral imaging data to predict DON (vomitoxin) concentration in corn samples. The dataset contains spectral reflectance values across multiple wavelength bands for different samples, with the goal of building a regression model to estimate mycotoxin levels. The key steps include:
 
@@ -14,7 +14,7 @@ Machine Learning Modeling: Training and evaluating Random Forest and XGBoost mod
 
 Model Evaluation: Using MAE, RMSE, and R² score to assess model performance and visualizing predictions.
 
-Technologies Used
+## Technologies Used
 
 Python
 
